@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="AuthorizationForm">
+  <grid id="27dc6" binding="rootPanelAuth" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="508" height="417"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="75bd8" binding="backgroundPanelAuth" custom-create="true" layout-manager="GridLayoutManager" row-count="12" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="420f2" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="20"/>
+                <preferred-size width="-1" height="20"/>
+                <maximum-size width="-1" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1579033"/>
+              <foreground color="-1579033"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="5dfff" class="javax.swing.JButton" binding="closeButtonAuth" custom-create="true">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+              <hspacer id="b6556">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <component id="704e0" class="javax.swing.JButton" binding="minimizeButtonAuth" custom-create="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <vspacer id="e65be">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="25"/>
+                <preferred-size width="30" height="25"/>
+                <maximum-size width="30" height="25"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="48833" class="javax.swing.JLabel" binding="phoneNumberEnteredText" custom-create="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="8d7f8" class="javax.swing.JTextPane" binding="codeSentTextPane" custom-create="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="2" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="500" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <caretColor color="-1"/>
+              <disabledTextColor color="-1"/>
+              <editable value="false"/>
+              <focusCycleRoot value="false"/>
+              <focusable value="false"/>
+              <foreground color="-1"/>
+              <opaque value="false"/>
+              <selectedTextColor color="-1"/>
+              <text value="На данный номер было отправлено SMS-сообщение с кодом подтверждения. Пожалуйста, введите его ниже:"/>
+            </properties>
+          </component>
+          <component id="7642d" class="javax.swing.JLabel" binding="lockIcon" custom-create="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="350" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="4"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5692c" class="javax.swing.JButton" binding="continueButtonAuth">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="300" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16731162"/>
+              <foreground color="-1"/>
+              <iconTextGap value="20"/>
+              <text value="ПРОДОЛЖИТЬ"/>
+            </properties>
+          </component>
+          <component id="59dbf" class="javax.swing.JLabel" binding="logoAuth" custom-create="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="c746d">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="30" height="75"/>
+                <preferred-size width="30" height="75"/>
+                <maximum-size width="30" height="75"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="8c7d8">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+                <preferred-size width="-1" height="30"/>
+                <maximum-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="7337c" class="javax.swing.JPasswordField" binding="authCodeField">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="10" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="110" height="40"/>
+              </grid>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <opaque value="false"/>
+            </properties>
+          </component>
+          <vspacer id="c0cc3">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="5" height="5"/>
+                <preferred-size width="5" height="5"/>
+                <maximum-size width="5" height="5"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="debe0">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="15" height="10"/>
+                <preferred-size width="15" height="10"/>
+                <maximum-size width="15" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <vspacer id="93f7a">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <minimum-size width="10" height="15"/>
+                <preferred-size width="10" height="15"/>
+                <maximum-size width="10" height="15"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
