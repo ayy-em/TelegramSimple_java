@@ -12,3 +12,7 @@ English version pending.
 ![Auth Screen](https://i.imgur.com/3c7xUB9.png)
 
 ![Chat Window](https://i.imgur.com/SavmE91.png)
+
+## Looking for a bank review?
+
+Check out https://fintechcompass.net/review/bunq/
